@@ -24,7 +24,7 @@ const Header = () => {
       <header className="w-full">
         <div className="flex items-center justify-around px-6 py-5 mb-3 bg-white shadow">
           <div className="logo-area flex items-center space-x-2">
-            <img src={logo} alt="EcoInsightLogo" className="h-14 w-auto" />
+            <img src={logo} alt="EcoInsightLogo" className="h-14 w-auto" onClick={() => navi("/")}/>
           </div>
           <div className="nav-area">
             <ul className="flex space-x-4 py-3">
