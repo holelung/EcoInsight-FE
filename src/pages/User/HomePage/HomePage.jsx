@@ -13,7 +13,7 @@ export default function HomePage() {
         {/* 대시보드 카드 그리드 */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <DashboardCard
-            title="실시간 인기글 현황"
+            title="실시간 인기글 현황1"
             description="여기는 차트/그래프가 들어갈 자리입니다."
           >
             <div className="h-40 bg-gray-200 rounded-lg flex items-center justify-center">
